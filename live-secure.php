@@ -93,7 +93,7 @@ $embed_data = json_decode($embed_data, TRUE);
 		<div class="col-sm-6">
 			<h4>Current Link</h4>
 			<div class="videoWrapper link-preview">
-				<iframe width="100%" height="100%" src="/embed/live.php?monitormode" frameborder="0" volume="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe width="100%" height="100%" src="/live.php?monitormode" frameborder="0" volume="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<!--  -->
 			</div>
 			
