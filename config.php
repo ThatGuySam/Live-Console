@@ -1,8 +1,11 @@
 <?php
-
+	
+	
 	$church_name = "Guts Church";
 	$church_timezone = "CDT/-5.0/DST";
 	$goodpass = "apassword";
+	
+	if( getenv('password') ) $goodpass = getenv('password');
 	
 	//Google Stuff
 	$OAUTH2_CLIENT_ID = '';
